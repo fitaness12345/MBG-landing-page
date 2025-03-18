@@ -1,0 +1,56 @@
+/* University of San Carlos color scheme */
+:root {
+    --primary-color: #032B44; /* Blue */
+    --secondary-color: #F7F7F7; /* Light Gray */
+    --accent-color: #FFC107; /* Orange */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
